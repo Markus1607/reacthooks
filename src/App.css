@@ -3,7 +3,7 @@
   text-decoration: none;
 }
 
-.link:hover{
+.link:hover {
   color: white;
   text-decoration: none;
 }
@@ -22,9 +22,9 @@
 }
 
 .card-title {
- font-weight: Bold;
- font-size: 35px;
- text-transform: uppercase;
+  font-weight: Bold;
+  font-size: 35px;
+  text-transform: uppercase;
 }
 
 .link-btn {
