@@ -1,7 +1,7 @@
 {
   "name": "react-beer-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "http://react-beer-app.github.io/reacthooks",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
