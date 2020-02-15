@@ -17,7 +17,7 @@ const Header = props => {
   return (
     <div style={navContainer}>
       <Navbar expand="lg">
-        <Navbar.Brand href="/#">Punk Beer</Navbar.Brand>
+        <Navbar.Brand href="#">Punk Beer</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav navbar-nav ml-auto">
