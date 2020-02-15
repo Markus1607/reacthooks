@@ -6,7 +6,7 @@ const Header = props => {
 
   function sortByStrength() {
     const sortedData = data.sort((a, b) => (a.abv > b.abv ? 1 : -1));
-    dispatch({ type: "sortBystrength", payload: sortedData });
+    dispatch({ type: "sortByStrength", payload: sortedData });
   }
 
   function sortByName() {

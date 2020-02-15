@@ -11,9 +11,8 @@ export const reducer = (state = initialState, action) => {
     case "error":
       return { ...state, loading: false, error: action.payload };
     case "success":
-      return { ...state, error: false, loading: false, data: action.payload };
     case "sortByName":
-    case "sortBystrength":
+    case "sortByStrength":
       return { ...state, error: false, loading: false, data: action.payload };
     default:
       return state;

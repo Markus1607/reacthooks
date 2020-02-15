@@ -24,7 +24,7 @@ const beerListReducer = () => {
   }, []);
 
   return (
-    <div className='container-bg Logo'>
+    <div className='container-bg'>
       {loading ? <div>'Loading...'</div> : <Grid data={data} dispatch={dispatch} />}
     </div>
   )

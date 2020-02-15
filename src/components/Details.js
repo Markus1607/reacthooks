@@ -1,6 +1,5 @@
 import React, { useState, useEffect, Fragment } from "react";
-import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 const Details = () => {
