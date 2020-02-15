@@ -12,7 +12,7 @@ const Grid = (props) => {
     const rows = chunk(data, cols);
 
     return (
-        <Container class="text-center">
+        <Container className="text-center">
             <Header {...props}/>
             <div>
                 {rows.map((cols, index) => (
