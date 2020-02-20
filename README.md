@@ -17,6 +17,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ### `yarn test`
 
-This will trigger and test all components and generate a snapshot.
-Test will fail if any of the snapshots where to change.
+This will trigger and test all components and generate a snapshot.<br />
+Test will fail if any of the snapshots where to change.<br />
 Run test -u to update snapshots when failing change is intended.
